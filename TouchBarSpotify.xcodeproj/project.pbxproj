@@ -13,6 +13,7 @@
 		17A4A858252F6DD600B8D137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A4A856252F6DD600B8D137 /* Main.storyboard */; };
 		17A4A864252F6DD600B8D137 /* TouchBarSpotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4A863252F6DD600B8D137 /* TouchBarSpotifyTests.swift */; };
 		17A4A86F252F6DD600B8D137 /* TouchBarSpotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4A86E252F6DD600B8D137 /* TouchBarSpotifyUITests.swift */; };
+		17A4A885252F6E8100B8D137 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A4A884252F6E8100B8D137 /* WindowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 		17A4A84D252F6DD500B8D137 /* TouchBarSpotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchBarSpotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A4A850252F6DD500B8D137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A4A852252F6DD500B8D137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17A4A854252F6DD600B8D137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17A4A854252F6DD600B8D137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = TouchBarSpotify/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		17A4A857252F6DD600B8D137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17A4A859252F6DD600B8D137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		17A4A85A252F6DD600B8D137 /* TouchBarSpotify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouchBarSpotify.entitlements; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		17A4A86A252F6DD600B8D137 /* TouchBarSpotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchBarSpotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A4A86E252F6DD600B8D137 /* TouchBarSpotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarSpotifyUITests.swift; sourceTree = "<group>"; };
 		17A4A870252F6DD600B8D137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17A4A884252F6E8100B8D137 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				17A4A850252F6DD500B8D137 /* AppDelegate.swift */,
 				17A4A852252F6DD500B8D137 /* ViewController.swift */,
 				17A4A854252F6DD600B8D137 /* Assets.xcassets */,
+				17A4A884252F6E8100B8D137 /* WindowController.swift */,
 				17A4A856252F6DD600B8D137 /* Main.storyboard */,
 				17A4A859252F6DD600B8D137 /* Info.plist */,
 				17A4A85A252F6DD600B8D137 /* TouchBarSpotify.entitlements */,
@@ -254,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A4A853252F6DD500B8D137 /* ViewController.swift in Sources */,
+				17A4A885252F6E8100B8D137 /* WindowController.swift in Sources */,
 				17A4A851252F6DD500B8D137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
