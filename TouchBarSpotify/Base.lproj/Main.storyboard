@@ -778,9 +778,9 @@
                             <touchBarItem id="NcH-pq-sKW">
                                 <viewController key="viewController" id="rAK-li-QPZ">
                                     <textField key="view" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ewz-Tu-H1F">
-                                        <rect key="frame" x="0.0" y="0.0" width="237" height="16"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="17"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="What are you in the mood to listen to?" id="ydm-Le-TbN">
-                                            <font key="font" metaFont="system"/>
+                                            <font key="font" size="15" name="HelveticaNeue-Italic"/>
                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
